@@ -34,11 +34,16 @@
 
 body {
   background-color: white;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-height: 100%;
 }
 
 .spacer {
